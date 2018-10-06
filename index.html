@@ -18,11 +18,18 @@ body,td,th {
 <h3><a href="index.html" style="text-decoration: none; font-family: Roboto; color: #FFF;">Home</a>&nbsp; &nbsp; <a href="(placeholder)" style="text-decoration: none; font-family: Roboto; color: #FFF;">About Me</a>&nbsp; &nbsp; <a href="(placeholder)" style="text-decoration: none; font-family: Roboto; color: #FFF;">Projects</a>
 </div>
 
+<h2> Date: {{page.date}}</h2>
+<h2> Title: {{page.title}}</h2>
+<h2> Excerpt: {{page.excerpt}} </h2>
+<h2> Download the Podcast here: <a href="{{page.audio.mp3}}" style="text-decoration: none; font-family: Roboto;">{{page.audio.url}}</a>
+
     <div id="centeredtext">
     <audio controls="controls">
 	<source src="episodes/teamInterviewOne.mp3" type='audio/mpeg; codecs="mp3"' />
 	</audio>
 </div>
+
+<h2><a href="index.html" style="text-decoration: underline, bold; font-family: Roboto; color: #F00;">Return to Home
 <p>&nbsp;</p>
 <div id="fixedfooter">2018 &copy; Data Munchers</div>
 
