@@ -1,39 +1,14 @@
 ---
+layout: master
 ---
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>HackUiowa 2018</title>
-<link href="/css/master.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-@import url("/Roboto/stylesheet.css");
-body,td,th {
-	font-family: Roboto;
-}
-</style>
-<link href="/css/index.css" rel="stylesheet" type="text/css" />
-</head>
 
-<body>
-<div id="fixedheader">
-<h3><a href="/" style="text-decoration: none; font-family: Roboto; color: #FFF;">Home</a>&nbsp; &nbsp; <a href="https://github.com/pathawks/podcast" style="text-decoration: none; font-family: Roboto; color: #FFF;">GitHub</a>
-</div>
+<h2>Date: {{page.date}}</h2>
+<h2>Title: {{page.title}}</h2>
+<h2>Excerpt: {{page.excerpt}} </h2>
+<h2>Download the Podcast here: <a href="{{page.audio.mp3}}" style="text-decoration: underline; font-family: Roboto;">{{page.audio.mp3}}</a> <b>(Right-Click to Download)</b>
 
-<h2> Date: {{page.date}}</h2>
-<h2> Title: {{page.title}}</h2>
-<h2> Excerpt: {{page.excerpt}} </h2>
-<h2> Download the Podcast here: <a href="{{page.audio.mp3}}" style="text-decoration: underline; font-family: Roboto;">{{page.audio.mp3}}</a> <b>(Right-Click to Download)</b>
-
-    <div id="centeredtext">
-    <audio controls="controls">
-	<source src="{{page.audio.mp3}}" type='audio/mpeg; codecs="mp3"' />
+<div id="centeredtext">
+	<audio controls="controls">
+		<source src="{{page.audio.mp3}}" type='audio/mpeg; codecs="mp3"' />
 	</audio>
 </div>
-
-<h2><a href="/" style="text-decoration: underline, bold; font-family: Roboto; color: #F00;">Return to Home
-<p>&nbsp;</p>
-<div id="fixedfooter">2018 &copy; Data Munchers</div>
-
-</body>
-</html>
