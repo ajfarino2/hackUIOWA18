@@ -1,0 +1,11 @@
+---
+layout: master
+---
+
+<h2>{{ site.title }}</h2>
+
+<ul>
+{% for episode in site.episodes %}
+	<li><a href="{{ episode.url }}">{{ episode.title }}</a>
+{% endfor %}
+</ul>

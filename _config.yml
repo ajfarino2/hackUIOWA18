@@ -1,6 +1,6 @@
 title: "Herky Hack"
 
-podcast_dir: "episodes"
+podcast_dir: "_episodes"
 
 collections:
   episodes:
@@ -8,6 +8,6 @@ collections:
 
 defaults:
   - scope:
-      path: episodes
+      path: _episodes
     values:
       layout: page
