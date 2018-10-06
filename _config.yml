@@ -1,0 +1,13 @@
+title: "Herky Hack"
+
+podcast_dir: "episodes"
+
+collections:
+  episodes:
+    output: true
+
+defaults:
+  - scope:
+      path: episodes
+    values:
+      layout: page
