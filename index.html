@@ -5,7 +5,8 @@ layout: master
 <h2>{{ site.title }}</h2>
 
 <ul>
-{% for episode in site.episodes %}
+{% assign episodes = site.episodes | sort: 'title' %}
+{% for episode in episodes %}
 	<li><a href="{{ episode.url }}">{{ episode.title }}</a>
 {% endfor %}
 </ul>
