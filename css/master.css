@@ -1,5 +1,44 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../Roboto/Roboto-Thin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-weight: bold;
+	src: url('../Roboto/Roboto-Bold.ttf') format('truetype');
+}
+
+* {
+	font-family: 'Roboto';
+	font-weight: normal;
+}
+
+b {
+	font-weight: bold;
+}
+
+#fixedheader a b {
+	font-family: Roboto;
+	color: #000;
+}
+
 @charset "utf-8";
-<style type="text/css">
+/* CSS Document */
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	margin-top: 2em;
+}
+
+h1, h2, h3, h4 {
+	text-align: center;
+}
+
 body {
 	background-color: #CCC;
 	margin:80px 80px 100px 100px;
@@ -13,7 +52,6 @@ a:link {
 ul{
 	color: black;
 }
-
 
 h3{
 	display:inline;
@@ -35,6 +73,7 @@ div#fixedheader {
 	background:#333;
 	padding:6.5px;
 }
+
 div#fixedfooter {
 	position:fixed;
 	text-align: center;
@@ -46,4 +85,3 @@ div#fixedfooter {
 	padding:8px;
 	font-family: Roboto;
 }
-</style>/* CSS Document */
