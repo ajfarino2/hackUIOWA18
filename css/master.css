@@ -89,3 +89,7 @@ div#fixedfooter {
 div#twitterbutton {
 	margin-top: 4em;
 }
+
+div#rss-share {
+	text-decoration: underline;
+}
