@@ -11,3 +11,7 @@ defaults:
       path: _episodes
     values:
       layout: page
+
+exclude:
+  - "*.md"
+  - "Gemfile*"
