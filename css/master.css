@@ -85,3 +85,7 @@ div#fixedfooter {
 	padding:8px;
 	font-family: Roboto;
 }
+
+div#twitterbutton {
+	margin-top: 6em;
+}
